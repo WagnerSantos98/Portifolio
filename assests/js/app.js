@@ -36,6 +36,9 @@ $(function(){
     });
 });
 
+$("body").css("paddingTop", $(".sidenav").innerHeight());
+
+
 //Back to top button
 var btn = $('#button');
 
