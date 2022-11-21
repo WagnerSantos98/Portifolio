@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!--Import Materialize.css-->
     <link rel="stylesheet" href="assests/css/materialize.min.css" media="screen,projection">
+    <link rel="stylesheet" href="assests/css/style.css">
 
     <!--Compilied Javascript-->
     <script type="text/javascript" src="assests/js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -23,23 +25,38 @@
             <a href="#" class="sidenav-trigger" data-target="mobile-nav"><i class="material-icons">menu</i></a>
 
             <ul class="right hide-on-med-and-down">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#" data-scroll="home">Home</a></li>
+                <li><a href="#" data-scroll="sobre">Sobre</a></li>
+                <li><a href="#" data-scroll="projetos">Projetos</a></li>
+                <li><a href="#" data-scroll="contato">Contato</a></li>
             </ul>
         </div>
     </nav>
 
     <!--Sidenav mobile-->
     <ul class="sidenav" id="mobile-nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Projetos</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="#" data-scroll="home">Home</a></li>
+        <li><a href="#" data-scroll="sobre">Sobre</a></li>
+        <li><a href="#" data-scroll="projetos">Projetos</a></li>
+        <li><a href="#" data-scroll="contato">Contato</a></li>
     </ul>
 
+    <!--Section-->
+    <div id="home" class="block">
+        <h2>Home</h2>
+    </div>
+    <div id="sobre" class="block">
+        <h2>Sobre</h2>
+    </div>
+    <div id="projetos" class="block">
+        <h2>Projetos</h2>
+    </div>
+    <div id="contato" class="block">
+        <h2>Contato</h2>
+    </div>
 
+    <!--Back to top button-->
+    <a id="button"><img src="../assests/img/chevron-up-solid.svg"></a>
 
     <script src="assests/js/app.js"></script>
 </body>
