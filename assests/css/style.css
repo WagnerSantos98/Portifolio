@@ -54,16 +54,13 @@ ul{
     text-transform: uppercase;
 }
 
-.hr{
-    background-color: #2196f3;
-    height: 1px;
-    border: 0;
-}
 nav{
     background-color: #0e599e;
 }
 
-#home{
+#home,
+#tecnologias,
+#contato{
     background-color: #282c34;
 }
 
@@ -75,6 +72,31 @@ nav{
     text-align: start;
     margin-left: 150px;
 }
+.sub-title{
+    margin-top: -4%;
+}
 .sub{
     color: #73736b;
+    text-align: start;
+    margin-left: 150px;
+    margin-top: -2.5%;
+    font-size: 1.1rem;
+}
+
+img{
+    height: 40px;
+    width: 40px;
+}
+
+.text,
+.card-title{
+    color:#000;
+}
+
+
+.card{
+    height: 50%;
+    width: 30%;
+    display: inline-block;
+    
 }
