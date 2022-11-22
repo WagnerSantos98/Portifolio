@@ -4,7 +4,7 @@ nav{
 
 .block{
     height: auto;
-    background-color: #eee;
+    background-color: #fff;
     margin-bottom: 20px;
     padding: 60px 0;
     text-align: center;
@@ -48,4 +48,33 @@ nav{
 #button.show{
     opacity: 1;
     visibility: visible;
+}
+
+ul{
+    text-transform: uppercase;
+}
+
+.hr{
+    background-color: #2196f3;
+    height: 1px;
+    border: 0;
+}
+nav{
+    background-color: #0e599e;
+}
+
+#home{
+    background-color: #282c34;
+}
+
+.title,
+.sub-title{
+    color: #2196f3;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: start;
+    margin-left: 150px;
+}
+.sub{
+    color: #73736b;
 }
